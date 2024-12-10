@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+      <title>Greenden</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+   </head>
+
+    <body>
+ <!--responsive nowbar-->
+
+   <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0  z-10" >
+     <h1 class="text-2xl">Greenden</h1>
+
+     <div>
+      <div class="md :hidden">
+     <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hidden">
+         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+       </svg>
+       
+     <ul class="flex gap-5 text gray-600 hidden md:flex">
+         <li>
+             <a class="hover:underline hover:text:black  " href="index.html">Home</a>
+         </li>
+         <li>
+              <a class="hover:underline hover:text:black " href="product.html">Products</a>
+         </li>
+         <li>
+             <a class="hover:underline hover:text:black" href="contact.html">Contact</a>
+  
+         </li>
+     </ul>
+     </div>
+  </nav>
+  
+  <!--side navbar-->
+  <section id="side-nav" class=" bg-green-100 fixed z-20 top-0  transition-all duration -1000" style="width: 50%; height: 100vh; right: -50%;">
+         <div class="text-right">
+
+             <p id = "close-nav" class="inline cursor-pointer"> X</p>
+         </div>
+        <ul class="flex flex-col gap-10 items-center text gray-600 ">
+         <li>
+           <a class="hover:underline hover:text:black  " href="index.html">Home</a>
+         </li>
+         <li>
+            <a class="hover:underline hover:text:black " href="product.html">Products</a>
+          </li>
+           <li>
+         <a class="hover:underline hover:text:black" href="contact.html">Contact</a>
+           </li>
+          </ul>
+ </section>
+<!--images-->
+     <section class="p-4 text-center">
+            <h1 class="text-2xl font-bold mt-5 text-center w-10px p-5">Our Product</h1>
+            <input id="search" placeholder="Search for a product..." type="text" class="border border-black m-3 p-2 "style =" width:80%" >
+         </div id="product-container" class="grid grid-cols-2 md:grid-cols-4 gap-5 col-span">
+   
+      <div class="grid grid-cols-2  md:grid-cols-4 mt-5 gap-5 w-20px h-1px">
+      
+
+          <div class="p-10  mb-10px">
+               <img class ="inline transform hover:-translate-y-2 hover:shadow-xl  p-10 w-10px"
+                     src="tl(14).jpg" >
+               <h1> Fancy Rose</h1>
+               <p>$ 25</p>
+            </div>
+            
+        
+               
+               <div class="p-10  mb-10px">
+                  <img src="wm_s.jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2 p-10 w-10px">
+                 <h1> Table Rose</h1>
+                 <p>$ 40</p>
+              </div>
+              
+
+              <div class="p-10  mb-10px">
+               <img src="tl(9).jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2   p-10 w-10px">
+              <h1 >Rose pot</h1>
+              <p>$ 60</p>
+           </div>
+
+
+           <div class="p-10  mb-10px">
+            <img src="tl(14).jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2    p-10 w-10px">
+           <h1 >Fancy Rose</h1>
+           <p>$ 25</p>
+        </div>
+        
+      </div>
+</section >
+  
+    <section class="text-center">
+      <div class="grid grid-cols-2  md:grid-cols-4 mt-5 gap-5 w-20px h-1px">
+      
+        <div class="p-10  mb-10px">
+                <img src="tl(14).jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2     p-10 w-10px">
+               <h1> Fancy Rose</h1>
+               <p>$ 25</p>
+            </div>
+            
+            <div class="p-10  mb-10px">
+               <img src="wm_s.jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2    p-10 w-10px">
+              <h1> Table Rose</h1>
+              <p>$ 40</p>
+           </div>
+           
+
+           <div class="p-10  mb-10px">
+            <img src="tl(9).jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2    p-10 w-10px">
+           <h1 >Rose pot</h1>
+           <p>$ 60</p>
+        </div>
+
+
+        <div class="p-10  mb-10px">
+         <img src="tl(14).jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2     p-10 w-10px">
+        <h1 >Fancy Rose</h1>
+        <p>$ 25</p>
+     </div>
+     
+   </div>
+  </section>
+<!-- footer -->
+<section class="bg-green-100 p-10  mt-5 flex flex-col gap-5">
+   <h1 class="text-4xl font-bold"> Greenden</h1>
+   <p>Signup for our email newsepaper to get exclusive discounts, updates, and more</p>
+  <p>@ 2024 Greenden,com</p>
+</section>
+      <script src="product.js"></script>
+
+   
+      
+   </body> 
+   </html>
